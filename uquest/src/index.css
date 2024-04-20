@@ -205,3 +205,45 @@ a {
   font-weight: bold;
   border: 10px solid blue;
 }
+
+/* League page */
+
+#lname {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+
+#overall-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.c1 {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  background-color: #919191;
+  border-radius: 35px;
+  margin-top: 15px;
+}
+
+#line5 {
+  width: 80%;
+  background-color: #000;
+  align-items: center;
+  height: 5px;
+  margin: 0 auto;
+  border-top: 5px solid black;
+  border-radius: 10px;
+
+}
