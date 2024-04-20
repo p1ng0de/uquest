@@ -8,18 +8,51 @@ body {
   margin: 0;
 }
 
+
 .nav {
-  height: 57px;
-  background-color: #5C80BC;
+  height: 100px;
+  background-color: #BAD7F2;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 2rem;
-  padding: 0 1rem;
 }
 
-.logo {
-  width: 45px;
-  height: 45px;
+.page {
+  display: flex;
+  color: black;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+
+}
+
+#title {
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+.page-container {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 25px;
+  margin-left: 50px;
+}
+
+#spacer {
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  width: auto;
+  height: 65px;
   object-fit: cover;
 }
