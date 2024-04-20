@@ -1,9 +1,15 @@
-import Navbar from "./Navbar";
 
 export default function Leaderboard() {
     return (
         <div>
-            <Navbar />
+            <div className="card1">
+                <p>poop</p>
+            </div>
+            <div className="card2">
+
+            </div>
+
+
         </div>
 
     )
