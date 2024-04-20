@@ -1,18 +1,25 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 
     return (
-        <div class="navbar container">
-            <nav className="nav">
-                <a href="/leaderboard">
-                    <img class="logo" src="/images/Logo.png" alt="logo" />
-                    <p>U-Quest</p>
-                </a>
-                <a href="/leaderboard">Leaderboard</a>
-                <a href="/house">House</a>
-                <a href="/league">League</a>
-            </nav>
+        <div className="nav">
+            <div class="leftNav">
+                <Link to="/leaderboard">
+                    <img id="logo" src="/images/Logo.png" alt="logo" />
+                </Link>
+                <Link to="/leaderboard">
+                    <p id="title">UQuest</p>
+                </Link>
+            </div>
+            <div id="spacer"></div>
+            <div class="page-container">
+                <Link to="/leaderboard" class="page">Leaderboard</Link>
+                <Link to="/house" class="page">House</Link>
+                <Link to="/league" class="page">League</Link>
+            </div>
+            <img id="logo" src="/images/Logo.png" alt="logo" />
         </div>
 
     )
